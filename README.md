@@ -2,7 +2,7 @@
 
 Instructions and code for the course project - based on ONG Surfrider detection of plastics in rivers.
 
-![Surfrider logo](/imgs/surfrider.png?raw=true "Surfrider" | width=100)
+![Surfrider logo](/imgs/surfrider.png?raw=true "Surfrider")
 
 ## Surfrider - Plastic Monitoring on Rivers
 
@@ -13,7 +13,7 @@ This will be used to monitor river banks to take local decisions, measure effect
 In practice, video streams are captured on river banks from kayaks (with their geolocalisation), and then fed to a model which aims at quantifying the number and types of objects.
 In the first version, there are three types (classes) of plastic litter:
 - Plastic Bottles: ![Plastic Bottles](/imgs/bottle.png?raw=true "Plastic Bottles")
-- Plastic Fragments: ![Plastic Framents](/imgs/fragment.png?raw=true "Plastic Fragments" | height=400)
+- Plastic Fragments: ![Plastic Framents](/imgs/fragment.png?raw=true "Plastic Fragments")
 - Other types of waste
 
 Your goal is to build a short project around plastic detection using modern Deep Learning algorithms.
@@ -53,7 +53,7 @@ To do so, you may optimize the following:
    - From Object detection to Segmentation (will probably require additional labels: masks, which are found in TACO for instance).
  - **Your own idea**!
 
-Feel free to use the software stack of your choice (Tensorflow/Keras, Pytorch....).
+Feel free to use the software stack of your choice (Tensorflow/Keras, Pytorch....). Be careful, most of the open source detection models in tensorflow are in Tensorflow < 2.0.
 
 ### Advanced possibilities
 
